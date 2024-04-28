@@ -18,4 +18,4 @@ def index():
 def snake():
     return {"status":"launched!", "description":"from timeweb apps"}
 
-app.run()
+app.run(host="0.0.0.0")
